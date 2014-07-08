@@ -1,12 +1,12 @@
 [user]
-	name = Matt Carrier
-	email = icecreammatt@gmail.com
+	name = Joshua Pena
+	email = penacalata@gmail.com
 [color]
 	ui = true
 [merge]
 	tool = p4merge
 [core]
-	excludesfile = /Users/matt/.gitignore_global
+	excludesfile = /Users/jpena/.gitignore_global
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	autocrlf = true
