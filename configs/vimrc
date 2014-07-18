@@ -18,6 +18,8 @@ set autoindent
 set cursorline
 set number
 set backspace=indent,eol,start
+set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+set list
 if $TMUX == ''
     set clipboard+=unnamed
 endif
