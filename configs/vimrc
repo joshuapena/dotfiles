@@ -18,6 +18,7 @@ set autoindent
 set cursorline
 set number
 set backspace=indent,eol,start
+"Joshua'a Change : Shows spaces, tabs and where lines end"
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 set list
 if $TMUX == ''
@@ -41,8 +42,10 @@ noremap $ <NOP>
 
 noremap <UP> <NOP>
 noremap <LEFT> <NOP>
-"Joshua's Change"
+"Joshua's Change : Makes getting unifited tabs easier"
+"Gets ride of spaces at the end of lines"
 noremap <RIGHT> <S-a><BS><Esc>
+"Makes line similar to the one above it"
 noremap <DOWN> <S-j>i<CR><Esc>
 
 imap jk <Esc>
