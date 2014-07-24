@@ -40,9 +40,10 @@ noremap 0 <NOP>
 noremap $ <NOP>
 
 noremap <UP> <NOP>
-noremap <DOWN> <NOP>
 noremap <LEFT> <NOP>
-noremap <RIGHT> <NOP>
+"Joshua's Change"
+noremap <RIGHT> <S-a><BS><Esc>
+noremap <DOWN> <S-j>i<CR><Esc>
 
 imap jk <Esc>
 
